@@ -1,0 +1,326 @@
+/*
+Angel工作室
+Author:QQ:815657032 709047174 
+ Copyright (c) 2009-2015 angelasp.com
+For further information go to http://www.angelasp.com
+base*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td
+{
+    margin: 0px;
+    word-wrap: break-word;
+    word-break: normal;
+    padding: 0px;
+    font-family: "宋体";
+}
+body
+{
+    font-size: 12px;
+}
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+fieldset, img
+{
+    border: 0px;
+}
+img
+{
+    vertical-align: middle;
+}
+address, caption, cite, code, dfn, em, th, var
+{
+    font-style: normal;
+    font-weight: normal;
+}
+ol, ul
+{
+    list-style: none;
+}
+select, input
+{
+    vertical-align: middle;
+}
+select, input, textarea
+{
+    font-size: 12px;
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 100%;
+    font-weight: normal;
+}
+q:before, q:after
+{
+    content: '';
+}
+abbr, acronym
+{
+    border: 0px;
+}
+a
+{
+    color: #333;
+    text-decoration: none;
+}
+a:focus
+{
+    -moz-outline: none;
+    outline: none;
+}
+.cb
+{
+    clear: both;
+}
+.formtable
+{
+    /*border-bottom: 1px solid #95b8e7;*/
+    border-top: none;
+}
+.table td
+{
+    border: 1px solid #dddddd;
+    padding: 5px 5px;
+}
+
+.table input
+{
+    border: 1px solid #dddddd;
+}
+
+.table textarea
+{
+    border: 1px solid #dddddd;
+}
+
+.panel-tool
+{
+    height: 22px;
+    margin-top: -11px;
+}
+
+.panel-tool a
+{
+    margin-top: 3px;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+input
+{
+    border: 1px solid #ccc;
+    margin: 2px;
+    height: 20px;
+    line-height: 20px;
+}
+
+a
+{
+    margin-left: 5px;
+}
+
+.title_jd
+{
+    background: url(../images/title_jd_bg.jpg) repeat-x;
+    height: 32px;
+    line-height: 32px;
+    margin: 0px 10px;
+    border: solid 1px #95b8e7;
+    border-bottom: 0;
+    padding-left: 10px;
+}
+
+.title_jd a
+{
+    color: #000;
+    text-decoration: none;
+}
+
+.title_jd a:hover
+{
+    color: #F00;
+    text-decoration: underline;
+}
+
+.title_jd span
+{
+    padding: 0px 5px;
+}
+
+
+.formtable td
+{
+    border-bottom: 1px solid #95b8e7;
+    background: #fff;
+    font-size: 12px;
+    padding: 6px 6px 6px 6px;
+    color: #4f6b72;
+}
+
+.formtable td.alt
+{
+    background: #F5FAFA;
+    color: #797268;
+}
+
+.formtable_input
+{
+    border: #99bbe8 solid 1px;
+    height: 18px;
+    line-height: 18px;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var
+{
+    font-style: normal;
+    font-weight: normal;
+}
+ol, ul
+{
+    list-style: none;
+}
+caption, th
+{
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 100%;
+    font-weight: normal;
+}
+q:before, q:after
+{
+    content: '';
+}
+abbr, acronym
+{
+    border: 0;
+}
+
+
+.out_box
+{
+    border: 1px solid #ccc;
+    background: #fff;
+    font: 12px/20px Tahoma;
+}
+.list_box
+{
+    border-bottom: 1px solid #eee;
+    padding: 0 5px;
+    cursor: pointer;
+}
+.focus_box
+{
+    background: #f0f3f9;
+}
+.mark_box
+{
+    color: #c00;
+}
+
+
+
+.register_main
+{
+    width: 980px;
+    margin: auto 0px;
+    text-align: center;
+}
+
+.reg_menu
+{
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.reg_tr
+{
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #99bbe8;
+    clear: both;
+    margin-top: 6px;
+}
+.str_left
+{
+    width: 120px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+}
+.reg_right
+{
+    width: 760px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+
+
+.reg_input
+{
+    padding: 0px;
+    line-height: 20px;
+    border: solid 1px #99bbe8;
+    margin-left: 5px;
+    height: 20px;
+    width: 296px;
+}
+
+.fs12
+{
+}
+#register_ok
+{
+    font-size: 14px;
+}
+
+#Rem
+{
+    width: 98%;
+    height: auto;
+    text-align: left;
+    word-break: break-all;
+}
+.md
+{
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    font-weight: bold;
+    padding: 0px;
+    color: #fff;
+    background: #6ab2e9;
+}
+
+.clist
+{
+    width: auto;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+.calendar-other-month .md
+{
+    color: #000000;
+    font-weight: normal;
+    font-family: '宋体';
+    background: #fff;
+}
+/*
+Angel工作室
+Author:QQ:815657032 709047174 
+Copyright (c) 2009-2015 angelasp.com
+For further information go to http://www.angelasp.com
+*/

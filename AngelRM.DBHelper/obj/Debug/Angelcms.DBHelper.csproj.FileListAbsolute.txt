@@ -1,0 +1,13 @@
+F:\2014-05-13\Angelcms11111111111111111111111\Angelcms.Web\Angelcms.DBHelper\bin\Debug\Angelcms.DBHelper.dll
+F:\2014-05-13\Angelcms11111111111111111111111\Angelcms.Web\Angelcms.DBHelper\bin\Debug\Angelcms.DBHelper.pdb
+F:\2014-05-13\Angelcms11111111111111111111111\Angelcms.Web\Angelcms.DBHelper\obj\Debug\Angelcms.DBHelper.dll
+F:\2014-05-13\Angelcms11111111111111111111111\Angelcms.Web\Angelcms.DBHelper\obj\Debug\Angelcms.DBHelper.pdb
+F:\2014-05-13\Angelcms11111111111111111111111\Angelcms\Angelcms.DBHelper\bin\Debug\Angelcms.DBHelper.dll
+F:\2014-05-13\Angelcms11111111111111111111111\Angelcms\Angelcms.DBHelper\bin\Debug\Angelcms.DBHelper.pdb
+F:\2014-05-13\Angelcms11111111111111111111111\Angelcms\Angelcms.DBHelper\obj\Debug\Angelcms.DBHelper.dll
+F:\2014-05-13\Angelcms11111111111111111111111\Angelcms\Angelcms.DBHelper\obj\Debug\Angelcms.DBHelper.pdb
+F:\2014-05-13\Angelcms11111111111111111111111\AngelRM\Angelcms.DBHelper\bin\Debug\Angelcms.DBHelper.dll
+F:\2014-05-13\Angelcms11111111111111111111111\AngelRM\Angelcms.DBHelper\bin\Debug\Angelcms.DBHelper.pdb
+F:\2014-05-13\Angelcms11111111111111111111111\AngelRM\Angelcms.DBHelper\obj\Debug\Angelcms.DBHelper.dll
+F:\2014-05-13\Angelcms11111111111111111111111\AngelRM\Angelcms.DBHelper\obj\Debug\Angelcms.DBHelper.pdb
+F:\2014-05-13\Angelcms11111111111111111111111\AngelRM\Angelcms.DBHelper\obj\Debug\Angelcms.DBHelper.csprojResolveAssemblyReference.cache

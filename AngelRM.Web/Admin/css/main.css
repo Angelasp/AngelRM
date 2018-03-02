@@ -1,0 +1,133 @@
+﻿@charset "utf-8";
+
+/* 
+Angel工作室
+Author:QQ:815657032 709047174 
+Copyright (c) 2009-2015 angelasp.com
+For further information go to http://www.angelasp.com
+CSS Document */
+/*******login*******/
+.login_main{ width:909px; height:460px; position:absolute; top:50%; left:50%; margin-left:-455px; margin-top:-280px;}
+.login_header{ width:909px; height:86px;}
+.login_content{ background:url(../images/conent_bg.jpg) no-repeat; width:439px; height:290px; padding-left:460px;}
+.login_content .login_form{ width:350px; height:274px; padding-left:55px; padding-top:14px;}
+
+.login_content .login_form .login_table{ width:350px;}
+.login_content .login_form .login_table td{ padding:9px 0px 6px;}
+
+.login_content .login_box{ width:238px;  border:#cfcfcf solid 1px; padding:0px 0px 0px 80px; margin-left:0px; }
+.login_content .login_form .login_input{ background:none; width:237px; padding:7px 0px 7px 0px; border:0; font-size:13px; font-family:"微软雅黑"; color:#353535;}
+.login_content .login_form .login_qy{ background:url(../images/qy_name.jpg) 7px 7px no-repeat;}
+.login_content .login_form .login_yh{ background:url(../images/yh_name.jpg) 7px 7px no-repeat;}
+.login_content .login_form .login_password{ background:url(../images/password_bg.jpg) 7px 7px no-repeat;}
+.login_content .login_form .login_yz{ width:80px; padding:6px 0px; padding-left:5px;  border:#cfcfcf solid 1px;}
+.login_content .login_form .login_img_yz{ padding-top:1px;}
+.login_txt,login_img{ float:left; margin-right:15px; height:35px; line-height:34px;}
+.login_footer{ background:url(../images/footer_bg.jpg) no-repeat; width:909px; height:74px; padding-top:10px;}
+.login_footer p{ color:#FFF; font-weight:400; font-size:14px; padding-left:55px;}
+.login_footer p span{ padding:0px 15px;}
+
+
+
+/*******register********/
+.reg_header{ background:url(../images/register_header_bg.jpg) repeat-x; width:100%; height:97px;}
+.reg_header .header_con{ width:920px; height:97px; margin:0 auto;}
+.reg_header .header_logo{ padding-top:50px;}
+.reg_con{ background:url(../images/reg_bg.jpg) 790px 250px no-repeat; width:920px; margin:0 auto; border:solid 1px #dddddd; margin-top:15px;}
+.reg_con .reg_lt{ padding:18px 15px 18px 15px; float:left;}
+.reg_con .reg_table{ width:380px;}
+.reg_con .reg_table td{ padding:10px 3px;}
+.reg_con .reg_table td label{ font-family:"微软雅黑"; font-size:14px;}
+.reg_con .reg_input{ width:270px; height:30px; border:#d6d6d6 solid 1px;}
+/*.reg_con .reg_md{ width:40px; height:210px; float:left; padding-top:45px;}*/
+
+.reg_con .reg_submit{ background:url(../images/reg_zc.jpg) no-repeat; width:147px; height:32px; border:0; cursor:pointer;}
+.reg_con .reg_rt{ width:510px; float:left;}
+.reg_con p{ font-size:13px;}
+.reg_con .reg_rt_txt1{ font-family:"微软雅黑"; font-size:16px; color:#898989; padding-left:63px; margin-top:25px;}
+.reg_con .reg_rt_txt2{ padding-left:63px; margin-top:30px; color:#939393;}
+.reg_con .reg_rt_txt3{ padding-left:63px; margin-top:15px; color:#939393;}
+.reg_con .reg_rt_txt4{ font-family:"微软雅黑"; font-size:16px; color:#898989; height:32px; line-height:32px; padding-left:63px; margin-top:70px;}
+.reg_con .reg_rt_txt4 span{ display:block; height:32px; line-height:32px; float:left; margin-right:15px;}
+
+
+.reg_con .reg_icon{ width:64px; height:64px; float:left; padding-left:150px; padding-top:5px; margin-right:10px; margin-right:25px;}
+.reg_con .reg_txt{ float:left;}
+.reg_con .reg_txt p{ height:20px; line-height:20px;}
+.reg_con .reg_txt p a{ color:#0069ca; text-decoration:none;}
+.reg_con .reg_txt p a:hover{ text-decoration:underline;}
+.reg_con .reg_jhmail{ margin-left:5px;}
+.reg_con .reg_btn_again{ background:#ebf5ff; border:solid 1px #86c2ff; width:126px; height:22px; cursor:pointer;}
+
+
+.reg_footer{ width:920px; height:32px; line-height:32px; margin:0 auto;}
+.reg_footer p{ text-align:center; color:#3b3b3b;}
+.reg_footer p span{ padding-left:13px;}
+.register{margin:auto;text-align:center;}
+.n-i-input{ height:20px; line-height:20px;}
+
+.text{color: #000100;height: 16px;line-height: 16px;padding:3px 2px;border: 1px solid #9296ac;background: url("../images/inputtxt.gif") repeat-x left top;}
+.inormal{ width:300px; }
+.itxt{ width:200px; }
+.ismall{ width:50px; }
+.tt_table{ font-size:18px; color:#096590; font-weight:bold; margin:0 auto; text-align:center;}
+.form_table{ color:#333; width:100%; margin-top: 10px}
+.form_table th{ border:solid 1px #507cd1;}
+.form_table td{ border: 1px solid #99bbe8; padding:3px 1px;}
+.form_tables td{ border-bottom:dashed 1px #CCCCCC; padding:1px 0px;}
+
+
+/*ReceiptForm*/
+.uploadify-button{ background-color: transparent; border: none; padding: 0; text-align: left;}
+.uploadify{ margin-top: 10px; margin-left: 10px; cursor:pointer;}
+.uploadify:hover .uploadify-button { background-color: transparent;}
+.uploadify-queue{ display: none;}
+.myul{ margin: 0px 5px 5px 10px; padding: 0px;}
+.myli{ width: 390px; background: #edf7ff; margin: 3px 0px 3px 0px; border: solid 1px #b8c7d9; padding: 4px 0px 4px 5px; position: relative; border-radius:4px;}
+.myli span{ position: absolute; top: 5px; right: 10px; cursor: pointer;}
+.myli a{  height: 14px; overflow: hidden; text-decoration: none; cursor:pointer;}
+.myli a:hover{ color: #ca0000; text-decoration: underline;}
+.myimg{ width: 120px; height: 120px;}
+
+/*导出*/
+.export_box{ width:580px; height:240px; border:solid 10px #e9f2ff; border-radius:20px; margin-top:20px;}
+.export_box p.sj{ margin-top:50px;}
+
+
+/*框架页*/
+.btnTitle{ padding-left: 12px;}
+.button{ background: #f8fbff; border: 1px solid #a4c8f8; border-top: none; width: 100%; height: 26px; font-size: 13px; text-align: left; padding-left: 11%; cursor: pointer;}
+.panel-title { font-size: 13px;}
+.accordion-header { font-size: 13px;}
+.top_banner_line { height: 22px; font-size: 14px; position: absolute; bottom: 5px; right: 5px;}
+.top_banner_line ul li { float: right; margin-right: 15px; font-size: 14px; font-family: Arial; color: #FFF;}
+.top_banner_line ul li a { text-decoration: none;}
+.top_banner_line ul li.top_user { background:url(../images/user.png) no-repeat; line-height: 22px; padding-left: 25px;}
+.top_banner_line ul li.top_notice img { font-family: Verdana; vertical-align: middle; margin-right: 3px;}
+.top_banner_line ul li.top_notice span { font-family: Verdana; vertical-align: middle;}
+
+ /*三层菜单样式*/
+.menuDirectory {width: 100%;}
+.tree ul { margin-left: 8px;}
+.tree ul li {}
+.tree li a { color: #000; display: block; text-decoration: none; padding-left: 19%;}
+.tree li a.tree-parent { background: url(../images/icon-folder-open.png) #f8fbff 133px 5px no-repeat; height: 26px; line-height: 26px; border-bottom: solid 1px #a4c8f8;}
+.tree li a.tree-parent-collapsed { background: url(../images/icon-folder.png) #f8fbff 133px 5px no-repeat;}
+.tree li .tree li a.tree-parent:focus, .tree li a.tree-item-active { border-bottom: solid 1px #a4c8f8; background-color: #f8fbff;}
+.tree ul.tree-group-collapsed { display: none; }
+.tree li ul li { height: 26px; line-height: 26px; border-bottom: solid 1px #bbd7fd;}
+.tree li ul li a { color: #404040; padding-left: 28%; }
+.tree li ul li a:focus { text-decoration: none;}
+.menus li a { background: #f8fbff; color: #000; display: block; text-decoration: none; padding-left: 19%; height: 26px; line-height: 26px; border-bottom: solid 1px #a4c8f8;}
+.auto-style1 { height: 24px;}
+.auto-style2 { height: 32px;}
+
+/*帮助btn*/
+.help_btn{ background:url(../images/btn_wen.jpg) no-repeat; width:20px; height:20px; cursor:pointer; border:0; margin-left:5px;}
+.help_btn:hover{ background:url(../images/btn_wen_hover.jpg) no-repeat;}
+/*
+Angel工作室
+Author:QQ:815657032 709047174 
+Copyright (c) 2009-2015 angelasp.com
+For further information go to http://www.angelasp.com
+*/

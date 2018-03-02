@@ -1,0 +1,8 @@
+F:\2014-05-13\Angelcms11111111111111111111111\AngelRM\Angelcms.DBHelper\bin\Debug\Angelcms.DBHelper.dll
+F:\2014-05-13\Angelcms11111111111111111111111\AngelRM\Angelcms.DBHelper\bin\Debug\Angelcms.DBHelper.pdb
+F:\2014-05-13\Angelcms11111111111111111111111\AngelRM\Angelcms.DBHelper\obj\Debug\Angelcms.DBHelper.dll
+F:\2014-05-13\Angelcms11111111111111111111111\AngelRM\Angelcms.DBHelper\obj\Debug\Angelcms.DBHelper.pdb
+F:\2014-05-13\Angelcms11111111111111111111111\AngelRM\AngelRM.DBHelper\bin\Debug\Angelcms.DBHelper.dll
+F:\2014-05-13\Angelcms11111111111111111111111\AngelRM\AngelRM.DBHelper\bin\Debug\Angelcms.DBHelper.pdb
+F:\2014-05-13\Angelcms11111111111111111111111\AngelRM\AngelRM.DBHelper\obj\Debug\Angelcms.DBHelper.dll
+F:\2014-05-13\Angelcms11111111111111111111111\AngelRM\AngelRM.DBHelper\obj\Debug\Angelcms.DBHelper.pdb

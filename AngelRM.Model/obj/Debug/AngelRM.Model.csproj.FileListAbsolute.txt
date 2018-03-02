@@ -1,0 +1,8 @@
+F:\2014-05-13\Angelcms11111111111111111111111\AngelRM\Angelcms.Model\bin\Debug\Angelcms.Model.dll
+F:\2014-05-13\Angelcms11111111111111111111111\AngelRM\Angelcms.Model\bin\Debug\Angelcms.Model.pdb
+F:\2014-05-13\Angelcms11111111111111111111111\AngelRM\Angelcms.Model\obj\Debug\Angelcms.Model.dll
+F:\2014-05-13\Angelcms11111111111111111111111\AngelRM\Angelcms.Model\obj\Debug\Angelcms.Model.pdb
+F:\2014-05-13\Angelcms11111111111111111111111\AngelRM\AngelRM.Model\bin\Debug\AngelRM.Model.dll
+F:\2014-05-13\Angelcms11111111111111111111111\AngelRM\AngelRM.Model\bin\Debug\AngelRM.Model.pdb
+F:\2014-05-13\Angelcms11111111111111111111111\AngelRM\AngelRM.Model\obj\Debug\AngelRM.Model.dll
+F:\2014-05-13\Angelcms11111111111111111111111\AngelRM\AngelRM.Model\obj\Debug\AngelRM.Model.pdb

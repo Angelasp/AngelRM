@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/* common start */
+body { _margin:0; _height:100%; /*IE6 BUG*/ }
+.myui_outer { text-align:left; }
+table.myui_border, table.myui_dialog { border:0; margin:0; border-collapse:collapse; width:auto; }
+.myui_nw, .myui_n, .myui_ne, .myui_w, .myui_c, .myui_e, .myui_sw, .myui_s, .myui_se, .myui_header, .myui_tdIcon, .myui_main, .myui_footer { padding:0; }
+.myui_header, .myui_buttons button { font: 12px/1.11 'Microsoft Yahei', Tahoma, Arial, Helvetica, STHeiti; _font-family:Tahoma,Arial,Helvetica,STHeiti; -o-font-family: Tahoma, Arial; }
+.myui_title { overflow:hidden; text-overflow: ellipsis; }
+.myui_state_noTitle .myui_title { display:none; }
+.myui_close { display:block; position:absolute; text-decoration:none; outline:none; _cursor:pointer; }
+.myui_close:hover { text-decoration:none; }
+.myui_main { text-align:center; min-width:9em; min-width:0\9/*IE8 BUG*/; }
+.myui_content { display:inline-block; *zoom:1; *display:inline; text-align:left; border:none 0; }
+.myui_content.myui_state_full { display:block; width:100%; margin:0; padding:0!important; height:100%; }
+.myui_loading { width:96px; height:32px; text-align:left; text-indent:-999em; overflow:hidden; background:url(../images/icons/loading.gif) no-repeat center center; }
+.myui_icon { vertical-align: middle; }
+.myui_icon div { width:48px; height:48px; margin:10px 0 10px 10px; background-position: center center; background-repeat:no-repeat; }
+.myui_buttons { padding:8px; text-align:right; white-space:nowrap; }
+.myui_buttons button { margin-left:15px; padding: 6px 8px; cursor: pointer; display: inline-block; text-align: center; line-height: 1; *padding:4px 10px; *height:2em; letter-spacing:2px; font-family: Tahoma, Arial/9!important; width:auto; overflow:visible; *width:1; color: #333; border: solid 1px #999; border-radius: 5px; background: #DDD; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#DDDDDD'); background: linear-gradient(top, #FFF, #DDD); background: -moz-linear-gradient(top, #FFF, #DDD); background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFF), to(#DDD)); text-shadow: 0px 1px 1px rgba(255, 255, 255, 1); box-shadow: 0 1px 0 rgba(255, 255, 255, .7),  0 -1px 0 rgba(0, 0, 0, .09); -moz-transition:-moz-box-shadow linear .2s; -webkit-transition: -webkit-box-shadow linear .2s; transition: box-shadow linear .2s; }
+.myui_buttons button::-moz-focus-inner{ border:0; padding:0; margin:0; }
+.myui_buttons button:focus { outline:none 0; border-color:#426DC9; box-shadow:0 0 8px rgba(66, 109, 201, .9); }
+.myui_buttons button:hover { color:#000; border-color:#666; }
+.myui_buttons button:active { border-color:#666; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DDDDDD', endColorstr='#FFFFFF'); background: linear-gradient(top, #DDD, #FFF); background: -moz-linear-gradient(top, #DDD, #FFF); background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#DDD), to(#FFF)); box-shadow:inset 0 1px 5px rgba(66, 109, 201, .9), inset 0 1px 1em rgba(0, 0, 0, .3); }
+.myui_buttons button[disabled] { cursor:default; color:#666; background:#DDD; border: solid 1px #999; filter:alpha(opacity=50); opacity:.5; box-shadow:none; }
+button.myui_state_highlight { color: #FFF; border: solid 1px #1c6a9e; background: #2288cc; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bbee', endColorstr='#2288cc'); background: linear-gradient(top, #33bbee, #2288cc); background: -moz-linear-gradient(top, #33bbee, #2288cc); background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#33bbee), to(#2288cc)); text-shadow: -1px -1px 1px #1c6a9e; }
+button.myui_state_highlight:hover { color:#FFF; border-color:#0F3A56; }
+button.myui_state_highlight:active { border-color:#1c6a9e; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bbee', endColorstr='#2288cc'); background: linear-gradient(top, #33bbee, #2288cc); background: -moz-linear-gradient(top, #33bbee, #2288cc); background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#33bbee), to(#2288cc)); }
+
+
+/* common end */
+
+.myui_inner { background:#FFF; }
+.myui_outer, .myui_inner {border:1px solid rgba(0, 0, 0, .7); border:1px solid #333\9;}
+.myui_border { box-shadow: inset 0 0 1px rgba(255, 255, 255, .9); }
+.myui_nw, .myui_ne, .myui_sw, .myui_se { width:8px; height:8px; }
+.myui_nw, .myui_n, .myui_ne, .myui_w, .myui_e, .myui_sw, .myui_s, .myui_se {background:rgba(0, 0, 0, .4); background:#000\9!important; filter:alpha(opacity=40); }
+.myui_state_lock .myui_nw, .myui_state_lock .myui_n, .myui_state_lock .myui_ne, .myui_state_lock .myui_w, .myui_state_lock .myui_e, .myui_state_lock .myui_sw, .myui_state_lock .myui_s, .myui_state_lock .myui_se { background:rgba(0, 0, 0, .5); background:#000\9!important; filter:alpha(opacity=50); }
+.myui_state_focus .myui_dialog { box-shadow: 0 0 3px rgba(0, 0, 0, 0.4); }
+.myui_state_focus .myui_outer { box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); }
+.myui_state_lock .myui_border { box-shadow:0 3px 26px rgba(0, 0, 0, .9); }
+.myui_state_drag .myui_outer, .myui_outer:active { box-shadow:none; }
+.myui_titleBar { position:relative; height:100%; }
+.myui_title { height:28px; line-height:27px; padding:0 28px 0 10px; text-shadow:0 1px 0 rgba(255, 255, 255, .7); background-color:#edf5f8; font-weight:bold; color:#95a7ae; font-family: Tahoma, Arial/9!important; background-color:#bdc6cd; background: linear-gradient(top, #edf5f8, #bdc6cd); background: -moz-linear-gradient(top, #edf5f8, #bdc6cd); background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#edf5f8), to(#bdc6cd)); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#edf5f8', endColorstr='#bdc6cd'); border-top:1px solid #edf5f8; border-bottom:1px solid #b6bec5; }
+.myui_state_focus .myui_title {  color:#4c5a5f; }
+.myui_state_drag .myui_title { background: linear-gradient(top, #bdc6cd, #67c6f5); background: -moz-linear-gradient(top, #bdc6cd, #67c6f5); background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#bdc6cd), to(#67c6f5)); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bdc6cd', endColorstr='#edf5f8'); box-shadow:none; }
+.myui_state_drag .myui_titleBar { box-shadow:none; }
+.myui_close { padding:0; top:4px; right:4px; width:21px; height:21px; line-height:21px; font-size:18px; color:#68767b; text-align:center; font-family: Helvetica, STHeiti; _font-family: Tahoma, '\u9ed1\u4f53', 'Book Antiqua', Palatino; text-shadow:0 1px 0 rgba(255, 255, 255, .9); }
+.myui_close:hover { background:#C72015; color:#FFF; }
+.myui_close:active { box-shadow: none; }
+.myui_content { color:#666; font-size:12px;}
+.myui_state_focus .myui_content { color:#000; }
+.myui_buttons { background-color:#F6F6F6; border-top:solid 1px #DADEE5; }
+.myui_state_noTitle .myui_nw, .myui_state_noTitle .myui_ne, .myui_state_noTitle .myui_sw, .myui_state_noTitle .myui_se { width:3px; height:3px; }
+.myui_state_noTitle .myui_inner { border:1px solid #666; background:#FFF; }
+.myui_state_noTitle .myui_outer { border:none 0; box-shadow:none; }
+.myui_state_noTitle .myui_nw, .myui_state_noTitle .myui_n, .myui_state_noTitle .myui_ne, .myui_state_noTitle .myui_w, .myui_state_noTitle .myui_e, .myui_state_noTitle .myui_sw, .myui_state_noTitle .myui_s, .myui_state_noTitle .myui_se { background:rgba(0, 0, 0, .05); background:#000\9!important; filter:alpha(opacity=5)!important; }
+.myui_state_noTitle .myui_titleBar { bottom:0; _bottom:0; _margin-top:0; }
+.myui_state_noTitle .myui_close { top:0; right:0; width:18px; height:18px; line-height:18px; text-align:center; text-indent:0; font-size:18px; text-decoration:none; color:#214FA3; background:none; filter:!important; }
+.myui_state_noTitle .myui_close:hover, .myui_state_noTitle .myui_close:active { text-decoration:none; color:#900; }
+.myui_state_noTitle .myui_dialog { box-shadow: none; }
